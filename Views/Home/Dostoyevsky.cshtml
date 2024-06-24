@@ -1,0 +1,89 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Dostoyevsky</title>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+    @{
+        ViewData["Title"] = "Dostoyevsky";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+    @{
+        ViewData["Title"] = "Dostoyevsky";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <div class="container">
+        <div class="header">
+            <h1>
+                <a href="https://tr.wikipedia.org/wiki/Fyodor_Dostoyevski" target="_blank">Dostoyevsky</a>
+            </h1>
+            <div class="img-container">
+                <a href="https://tr.wikipedia.org/wiki/Fyodor_Dostoyevski" class="img-link" target="_blank">
+                    <img class="img" src="~/images/dostoyevsky.jpg" width="150" height="100" />
+                </a>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="content">
+                <p><strong>Fyodor Dostoevsky</strong></p>
+                <p>
+                    Fyodor Dostoevsky, born in Moscow in 1821, stands as a towering figure in the annals of Russian literature. His life, marked by
+                    personal turmoil and philosophical exploration, laid the groundwork for some of the most profound literary works of the 19th century.
+                    Dostoevsky's novels delve into the depths of the human psyche, grappling with themes of morality, existentialism, and the
+                    complexities of the human condition.
+                </p>
+                <p>
+                    Central to Dostoevsky's writing is his relentless examination of morality and the eternal struggle between good and evil. Characters
+                    like Raskolnikov in "Crime and Punishment" or Ivan Karamazov in "The Brothers Karamazov" are emblematic of this exploration, navigating
+                    moral dilemmas and the consequences of their actions. Through their experiences, Dostoevsky paints a vivid portrait of the moral
+                    ambiguities inherent in the human experience.
+                </p>
+                <p>
+                    Existentialism permeates Dostoevsky's literary landscape, as he wrestles with the fundamental questions of existence, free will, and
+                    the search for meaning. Characters grapple with existential angst, questioning their place in a seemingly indifferent universe. Through
+                    their existential crises, Dostoevsky explores the profound depths of human experience, shedding light on the universal quest for purpose
+                    and redemption.
+                </p>
+                <p>
+                    Dostoevsky's unparalleled skill lies in his ability to penetrate the human psyche with unmatched depth and precision. Through his
+                    psychologically complex characters, he lays bare the inner workings of the human mind, revealing its darkest fears and deepest desires.
+                    In novels like "Crime and Punishment" and "The Brothers Karamazov," Dostoevsky offers profound insights into the complexities of human
+                    nature, leaving an indelible mark on the landscape of world literature.
+                </p>
+            </div>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a asp-controller="Home" asp-action="Index">Main Page</a></li>
+                <li><a asp-controller="Home" asp-action="Dostoyevsky">Dostoyevsky</a></li>
+                <li><a asp-controller="Home" asp-action="Tolstoy">Tolstoy</a></li>
+                <li><a asp-controller="Home" asp-action="VictorHugo">Victor Hugo</a></li>
+                <li><a asp-controller="Home" asp-action="Shakespeare">William Shakespeare</a></li>
+                <li><a asp-controller="Home" asp-action="SignIn">Sign in</a></li>
+            </ul>
+        </div>
+        <div class="extra">
+            <p><strong>Authorship</strong></p>
+            <p>
+                Writers are artists who use words to express thoughts, feelings, and imaginations, captivating readers with their unique styles and
+                transporting them to different worlds. Through the power of language, writers not only tell stories but also shape perspectives, making them
+                individuals who change the world with their words.
+            </p>
+        </div>
+        <div class="footer">
+            <p>Footer</p>
+        </div>
+    </div>
+
+</body>
+</html>

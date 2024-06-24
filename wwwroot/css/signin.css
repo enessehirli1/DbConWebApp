@@ -1,0 +1,79 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #ccc8b3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type="submit"]:hover {
+        background-color: #bfbd93;
+    }
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #bfbd93;
+}
+
+.back-link {
+    text-decoration: none;
+}
+
+#uniquecsspart {
+    padding-top: 2323px;
+    background-color: #e3f542;
+}
+
+#uniquecsspart {
+    background-color: #e3f542;
+    color: #d62a0f;
+    text-align: center;
+    margin: 0;
+    font-size: 70px;
+    font-family: "Times New Roman", Times, serif;
+}
